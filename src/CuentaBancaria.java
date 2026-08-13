@@ -23,6 +23,10 @@ public class CuentaBancaria {
         return saldo;
     }
 
+    protected void setSaldo(double nuevoSaldo) {
+        this.saldo = nuevoSaldo;
+    }
+
     public String describir() {
              return "Cuenta" + numeroCuenta
                      + " . Titular: " + titular
@@ -36,4 +40,6 @@ public class CuentaBancaria {
     public void realizarRetiro(double monto) {
             setSaldo(getSaldo() - monto);
     }
+
+
 }

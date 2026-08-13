@@ -6,7 +6,7 @@ public class CuentaCorriente extends CuentaBancaria {
     public CuentaCorriente(
             String numeroCuenta,
             String titular,
-            String saldo,
+            double saldo,
             double comisionPorTransaccion,
             double LimiteSobregiro) {
 
